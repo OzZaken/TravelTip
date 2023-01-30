@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Dosis, 'Roboto';
+}
+
+body {
+    background-color: var(--clr-a2);
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Roboto';
+    font-size: 1.5em;
+}
+
+th,
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+p::first-letter,
+th,
+button {
+    text-transform: capitalize;
+}
+
+
+button:hover {
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: black;
+    background-color: #9ed2c6c1;
+}
+
+footer {
+    height: 5vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}

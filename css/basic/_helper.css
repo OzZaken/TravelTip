@@ -1,0 +1,61 @@
+.debug * {
+    outline: 1px solid gold;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Interactive colors */
+.danger {
+    background-color: rgb(200, 82, 82);
+}
+
+.success {
+    background-color: rgb(154, 205, 50);
+}
+
+.alert {
+    background-color: rgba(215, 215, 71, 0.918);
+}
+
+.navigate {
+    background-color: rgb(0, 117, 153);
+}
+
+.notification {
+    background-color: rgb(255, 153, 51);
+}
+
+[role="button"],
+.btn {
+    border: none;
+    padding: 10px 10px;
+    color: var(--clr-a2);
+    font-weight: 700;
+    min-width: 48px;
+    min-height: 48px;
+    max-width: fit-content;
+}
+/* Flex Positions */
+.flex {
+    display: flex;
+}
+
+.flex.space-between {
+    justify-content: space-between;
+}
+
+.flex.space-evenly {
+    justify-content: space-evenly;
+}
+
+.flex.space-around {
+    justify-content: space-around;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

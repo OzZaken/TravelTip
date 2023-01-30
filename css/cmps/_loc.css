@@ -1,0 +1,30 @@
+.loc-stat {
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+    height: fit-content;
+    min-height: 150px;
+}
+
+table.main-loc-container {
+    min-width: 260px;
+    order: 1;
+    background-color: var(--clr-a4);
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.loc-preview{
+    border-bottom: 1px solid #222;
+}
+.i-delete::before {
+    content: url('../../assets/img/svg/delete.svg');
+}
+
+.i-navigate::before {
+    content: url('../../assets/img/svg/navigate.svg');
+}
+
+.i-copy::before {
+    content: url('../../assets/img/svg/copy.svg');
+}

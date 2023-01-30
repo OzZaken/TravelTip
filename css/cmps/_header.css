@@ -1,0 +1,17 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--clr-a1);
+}
+
+.main-header form {
+    background-color: white;
+    border: #222 2px solid;
+}
+
+[name="search-loc"] {
+    border: none;
+    padding: 10px 15px;
+    border-radius: .2em;
+}

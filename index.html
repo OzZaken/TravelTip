@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelTip</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>TravelTip</h1>
+        <div class="flex">
+            <form action="search-loc" onsubmit="onSearchLocation(event,this)">
+                <input type="search" name="search-loc" placeholder="Enter Location">
+                <button class="btn navigate">go</button>
+            </form>
+
+            <button class="btn navigate" onclick="onGetUserPos()">my location</button>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- User Pos -->
+        <h2 class="flex space-around user-pos-container">
+            Location:
+            <span class="pos-container"></span>
+
+            <button class="btn alert">
+                copy location
+            </button>
+        </h2>
+
+        <!-- Map -->
+        <div class="map-container">
+            <div id="map"></div>
+        </div>
+
+        <!-- User Locations -->
+        <article class="loc-stat">
+            <table class="main-loc-container">
+                <tbody class="loc-container"></tbody>
+            </table>
+        </article>
+
+        <!-- Weather -->
+        <aside class="weather-container"></aside>
+
+    </main>
+
+    <footer class="flex-center footer">
+        <span>Copyright &copy; 2023</span>
+        <span>&nbsp; Oz Zaken &nbsp; coding academy</span>
+    </footer>
+
+    <script src="lib/swal.js"></script>
+    <script src="lib/axios.js"></script>
+    <script type="module" src="js/app.controller.js"></script>
+</body>
+
+</html>

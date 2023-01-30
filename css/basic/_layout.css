@@ -1,0 +1,33 @@
+.main-content {
+    display: grid;
+    grid-auto-flow: row dense;
+    grid-template-columns: 1fr auto;
+    height: 85vh;
+    gap: 5px;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+}
+
+.main-content * {
+    grid-column: 1/-1;
+}
+
+@media (min-width: 782px) {
+    .main-content {
+        margin-inline-start: 12px;
+        margin-inline-end: 12px;
+    }
+
+    .map-container {
+        grid-row: 2/4;
+        grid-column: 1;
+    }
+
+    .loc-stat {
+        grid-column: 2;
+    }
+
+    .weather-container {
+        grid-column: 2;
+    }
+}
