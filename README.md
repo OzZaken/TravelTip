@@ -6,7 +6,6 @@ Welcome to the TravelTip project! This project is a travel website that helps us
 [Check it Out](https://ozzaken.github.io/TravelTip/)
 
 <img src="assets/img/readme/desktop.jpg" alt="Desktop Preview">
-<img src="assets/img/readme/tablet.jpg" alt="Tablet Preview">
 <img src="assets/img/readme/mobile.jpg" alt="Mobile Preview">
 
 ## Requirements
