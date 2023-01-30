@@ -3,6 +3,11 @@ Handling Promises with AJAX and SweetAlert2 in MVC.
 
 ## Introduction
 Welcome to the TravelTip project! This project is a travel website that helps users find locations, view maps, and see current weather information. The website uses the MVC pattern and utilizes Promises and AJAX to handle asynchronous actions and SweetAlert2 to display messages.
+[Check it Out](https://ozzaken.github.io/TravelTip/)
+
+<img src="assets/img/readme/desktop.jpg" alt="Desktop Preview">
+<img src="assets/img/readme/tablet.jpg" alt="Tablet Preview">
+<img src="assets/img/readme/mobile.jpg" alt="Mobile Preview">
 
 ## Requirements
 - A modern web browser
@@ -28,9 +33,3 @@ No installation is necessary, simply open the index.html file in a web browser.
 
 ## Contributing
 To contribute to this project, please fork the repository and submit a pull request.
-
-## License
-This project is licensed under the [insert license here].
-
-## Acknowledgments
-[Insert acknowledgements here, if necessary].
