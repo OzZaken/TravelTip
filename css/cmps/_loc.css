@@ -3,7 +3,6 @@
     justify-content: center;
     overflow-y: scroll;
     height: fit-content;
-    min-height: 150px;
 }
 
 table.main-loc-container {
